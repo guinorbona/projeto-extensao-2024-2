@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Casa Hacker</title>
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="stylesheet" href="../css/styleForms.css">
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <h1>Casa Hacker</h1>
+      <nav>
+        <a href="../index.html">Home</a>
+        <a href="./iniciativas.html">Iniciativas</a>
+        <a href="./faleconosco.html">Fale Conosco</a>
+        <a href="./developers.html">Desenvolvedores</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="contact-form">
+      <h1>Fale Conosco</h1>
+      <p>Se você tem alguma dúvida ou sugestão, entre em contato conosco!</p>
+
+      <form action="enviar_contato.php" method="POST">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required placeholder="Seu nome">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required placeholder="exemplo@email.com">
+
+        <label for="number">Telefone:</label>
+        <input type="number" id="number" name="number" required placeholder="00 98765-4321">
+
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" rows="4" required placeholder="Descreva sua dúvida aqui..."></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-column">
+        <h4>Principais Frentes</h4>
+        <ul>
+          <li>Inclusão Digital</li>
+          <li>Desenvolvimento de Coletivos</li>
+          <li>Educação STEAM</li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h4>Serviços</h4>
+        <ul>
+          <li>Programas de Inclusão Digital</li>
+          <li>Capacitação em Privacidade e Segurança</li>
+          <li>Empoderamento de Mulheres Empreendedoras</li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
